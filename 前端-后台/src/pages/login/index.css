@@ -1,0 +1,78 @@
+.login_content {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65a4df, #6cebe5);/*重点了解*/
+    display: flex; 
+    align-items: center;       /*重点了解*/
+    justify-content: center;
+}
+.glass {
+    background-color: #fff;
+    min-height: 60vh;
+    width: 25%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 10px;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+}
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5)
+  );
+  height: 12rem;
+  width: 12rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+    top: 15%;
+    right: 30%;
+}
+.circle2 {
+    bottom: 12%;
+    left: 30%;
+}
+.glass h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 50px;
+
+}
+.glass h3 {
+    padding-left: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.login_form {
+    padding-left: 50px;
+}
+.login_form .form_span {
+    font-size: 13px;
+    padding-bottom: 5px;
+    color: #7e7e7e;
+}
+.login_form .form_input {
+    width: 350px;
+    height: 45px;
+    border: #7e7e7e solid 0px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.login_form .form_loginbtn {
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    color: #fff;
+    background-color: black;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 20px;
+}

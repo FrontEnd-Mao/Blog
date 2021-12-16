@@ -1,0 +1,45 @@
+.period {
+    list-style: none;
+    padding: 10px ;
+}
+.period .TimeBarMarker {
+    position: absolute;
+    left: 50%;
+    margin-left: .8rem;
+}
+.period .TimeBarMarker:before {
+    background: 0 0;
+    content: "";
+    width: 20px;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    top: -30px;
+    bottom: -60px;
+    position: absolute;
+    border-top: 3px solid #e5e7eb;
+    border-bottom: 3px solid #e5e7eb;
+}
+.period .TimeBarMarker:after {
+    background: 0 0;
+    content: "";
+    height: 32px;
+    background: #e5e7eb;
+    width: 3px;
+    display: block;
+    position: absolute;
+    top: auto;
+    bottom: -90px;
+    left: 9px;
+}
+.period .TimeBarContent {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+.period .TimeBarContent h2{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -40px;
+}

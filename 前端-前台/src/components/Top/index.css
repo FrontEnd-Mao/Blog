@@ -1,0 +1,55 @@
+.Top {
+    width: 100%;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.5); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.Top .TopLeft {
+    width: 20%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-top: 1rem;  
+}
+.Top .TopLeft img{
+    width: 200px;
+    /* height: 50px; */
+
+}
+.Top .TopCenter {
+   width: 100%;
+   position: absolute;
+   left: -2%;
+   text-align: center;
+   color: aliceblue;
+   font-size: 1.3rem;
+   font-family:"Times New Roman",Georgia,Serif
+}
+.Top .TopCenter ul li{
+   list-style: none;
+   margin: .5rem;
+   display:inline;
+ }
+ .Top .TopCenter ul li div:first-child{
+    display: inline;
+  }
+  .Top .TopCenter ul li div:first-child a{
+    text-decoration: none;
+    color: aliceblue;
+  
+  }
+
+.Top .TopRight {
+    position: relative;
+    float: right;
+}
+.Top .TopRight img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}

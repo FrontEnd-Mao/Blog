@@ -1,0 +1,50 @@
+.articalCard {
+    width: 300px;
+    height: auto;
+    background: #FFF;
+    border: 0;
+    border-radius: 10px;
+    margin: 2rem;
+    float: left;
+}
+.articalCard .carTop img {
+    width: 100%;
+    height: 280px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 1rem;
+}
+.articalCard .carContant .carContantInfo {
+    margin-bottom: 3rem;
+}
+.articalCard .carContant .carContantInfo h1 {
+    margin: .8rem 1rem;
+}
+.articalCard .carContant .carContantInfo h1 div a{
+    text-decoration: none;
+    color: #000;
+}
+.articalCard .carContant  p{
+    margin: .8rem 1rem;
+}
+.carBottom {
+    height: 2.5rem;
+}
+.otherInfo {
+    margin: .8rem 1rem;
+    font-size: 15px;
+
+    
+}
+.otherInfo img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+
+
+}
+.otherInfo span{
+
+    vertical-align: middle;
+    margin-left: .3rem;
+}

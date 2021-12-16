@@ -1,0 +1,10 @@
+.main_right {
+
+    width: calc(100% - 270px);
+    height: 500px;
+    margin-left: 5px;
+    margin-top: 15px;
+    float: left;
+    position: relative;
+    left: 256px;
+}

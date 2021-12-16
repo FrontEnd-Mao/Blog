@@ -1,0 +1,67 @@
+.articalDetail {
+    width: 100%;
+    height: auto;
+    background-color: #33415c;
+    min-height: 150vh;
+}
+.detailCenterTop {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    top: 75px;
+    background-image: url(../../assets/img/4797320.jpg);
+}
+
+.detailCenterTop .header {
+    width: 50vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.detailCenterTop .header p {
+    display: inline;
+}
+.detailCenterTop .header p img{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.detailCenterTop .header p .articalInfo{
+    /* margin-left: 60px; */
+    font-size: 18px;
+    vertical-align: middle;
+}
+.detailCenterTop .header p .bull{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mask {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+.articalDetailConetnt {
+    width: 50vw;
+    color: #fff;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 
+    -5px 0px 10px 1px rgba(34, 43, 61, 0.8),/*左*/
+    0px -5px 10px 1px rgba(34, 43, 61,0.8),/*上*/
+    5px 0px 10px 1px rgba(0, 0, 0,0.1),/*右*/
+    0px 5px 10px 1px rgba(0, 0, 0,0.1);/*下*/;
+}
